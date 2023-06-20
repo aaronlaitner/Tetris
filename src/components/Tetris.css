@@ -1,0 +1,4 @@
+.Tetris {
+  /* Container has a relative position, so anything else will align with this container*/
+  position: relative;
+}

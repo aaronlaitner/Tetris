@@ -1,0 +1,19 @@
+/* Sets a starting point for the preview */
+.Preview {
+  position: absolute;
+  top: 0;
+  /* will be on the right side, just has a big gap starting from the left and ending on the right */
+  left: 72.2vw;
+  background: rgba(0, 0, 0, 0.1);
+  border: 10px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.Preview-board {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  width: 11vw;
+  height: 11vw;
+}

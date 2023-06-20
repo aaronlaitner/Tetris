@@ -1,0 +1,29 @@
+.Menu {
+  /* Centers the Menu */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Makes it appear lower */
+  min-height: 50vh;
+  z-index: 100;
+}
+
+.Button {
+  /* creates space around button */
+  padding: 40px 80px;
+  font-size: 2em;
+  border-radius: 20px;
+  border: none;
+  /* small shadow to make the content seperate from background */
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
+  cursor: pointer;
+}
+
+p {
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding: 5px 5px;
+  font-size: 20px;
+  background-color: rgb(253, 253, 253);
+  color: #000000;
+}
